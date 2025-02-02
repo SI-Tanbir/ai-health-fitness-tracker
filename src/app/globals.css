@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default Light Mode */
+html {
+  @apply bg-gray-100 text-gray-900;
+}
 
+/* Dark Mode Applied */
+.dark {
+  @apply bg-gray-900 text-gray-100;
+}

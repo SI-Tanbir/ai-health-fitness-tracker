@@ -7,7 +7,8 @@ export default function Home() {
 
 // const items = ["Push-ups", "Squats", "Jumping Jacks"];0
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-600 to-green-500 text-white text-center p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-600 to-green-500 text-white text-center p-6 ">
+      
       <motion.h1 
         className="text-6xl font-extrabold drop-shadow-lg"
         initial={{ opacity: 0, y: -50 }}
